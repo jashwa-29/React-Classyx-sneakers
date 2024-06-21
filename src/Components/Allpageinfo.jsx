@@ -2,7 +2,7 @@ import React from 'react'
 
 const Allpageinfo = () => {
   return (
-    <section class="bg-main-color w-full h-auto">
+    <section class="bg-main-color w-full h-auto font-poppins">
     <div class="w-[88%] mx-auto">
             <div class="main-sug-page flex-wrap flex lg:justify-between justify-center gap-[30px] py-[60px]">
                 <div class="free-delivery">
