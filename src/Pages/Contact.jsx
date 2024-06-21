@@ -43,7 +43,7 @@ const Contact = () => {
     <>
     <Subhead pname='Contact'/>
     <section class="w-[88%] ml-auto mr-auto my-[50px]">
-        <div class="w-[93%] mx-auto">
+        <div class="">
             <div class="contact-heading flex flex-col items-center justify-center mb-[50px]">
                 <h2 class="font-bold font-poppins text-[35px] text-center">Get In Touch With Us</h2>
                 <p class="font-poppins text-[14px] md:flex lg:flex hidden text-gray w-[550px] text-center">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
