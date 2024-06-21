@@ -3,7 +3,7 @@ import testimonials from '../../src/assets/testiomonials-img.webp'
 
 const Testimonials = () => {
   return (
-    <section class="my-[50px]">
+    <section class="my-[50px] font-poppins">
         <div class="w-[93%] ml-auto mr-auto">
             <div class="testimonials-heading flex flex-col justify-center items-center mb-10">
                 <h2 class="font-bold text-[35px] text-center">Testimonials</h2>
