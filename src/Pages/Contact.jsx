@@ -42,7 +42,7 @@ const Contact = () => {
   return (
     <>
     <Subhead pname='Contact'/>
-    <section class="w-[88%] ml-auto mr-auto my-[50px]">
+    <section class="w-[88%] ml-auto mr-auto my-[50px] font-poppins">
         <div class="">
             <div class="contact-heading flex flex-col items-center justify-center mb-[50px]">
                 <h2 class="font-bold font-poppins text-[35px] text-center">Get In Touch With Us</h2>
