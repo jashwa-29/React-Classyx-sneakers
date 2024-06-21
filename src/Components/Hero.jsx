@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <section>   
+    <section classnaame='font-poppins'>   
     <div className="bg-main-color w-full lg:h-auto h-auto flex lg:pt-[66px] pt-[40px] lg:pb-[105px] pb-[40px] ">
         <div className="w-[93%] ml-auto mr-auto">
             <div className="main-hero flex lg:flex-row flex-col-reverse items-center justify-evenly lg:gap-0 gap-[25px]">
