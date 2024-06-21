@@ -7,7 +7,7 @@ const Account = () => {
   return (
     <>
     <Subhead pname='Account'/>
-    <section class="my-[50px]">
+    <section class="my-[50px] font-poppins">
     <div class="w-[93%] mx-auto">
         <div class="main-account flex flex-wrap justify-center gap-[70px] lg:gap-[200px]">
             <div class="login flex flex-col items-start gap-[25px]">
