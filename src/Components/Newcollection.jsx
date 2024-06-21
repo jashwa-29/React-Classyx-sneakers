@@ -214,7 +214,7 @@ const renderProduct = (product) => (
     //     </div>
     //   </div>
     // </section>
-    <section className="my-[50px]">
+    <section className="my-[50px] font-poppins">
     <div className="w-[93%] ml-auto mr-auto">
       <div className="collection-heading flex justify-center">
         <h2 className="font-bold text-[35px] text-center mb-[30px]">New Collections</h2>
