@@ -61,7 +61,7 @@ const Navbar = ({cart , setCart}) => {
              </div>
          </div>
          <div>
-         <div className={ click === true ? "nav  flex flex-col lg:hidden items-center gap-[50px] fixed left-0 bg-main-color w-[100%] h-auto  ease-in-out duration-500 py-5" : "nav  flex flex-col lg:hidden items-center gap-[50px] fixed left-[-100%] h-auto ease-in-out duration-500 py-5"} >
+         <div className={ click === true ? "nav  flex flex-col lg:hidden items-center gap-[50px] fixed left-0 bg-main-color w-[100%] h-auto  ease-in-out duration-500 py-5" : "nav  flex flex-col lg:hidden items-center gap-[50px] w-[100%] fixed left-[-100%] h-auto ease-in-out duration-500 py-5"} >
 
         
                  <div className="nav-text">
