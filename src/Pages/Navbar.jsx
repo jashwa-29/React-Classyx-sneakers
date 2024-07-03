@@ -1,7 +1,12 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = ({cart , setCart}) => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
     const [click , setClick] = useState(false)
     const navund = (num)=>{
       setClick(num)
@@ -10,6 +15,8 @@ const Navbar = ({cart , setCart}) => {
     const navclick = ()=>{
         setClick(!click)
     }
+
+
 
 
 
