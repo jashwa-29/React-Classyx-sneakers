@@ -10,7 +10,7 @@ const Hero = () => {
             <div className="main-hero flex lg:flex-row flex-col-reverse items-center justify-evenly lg:gap-0 gap-[25px]">
                 <div className="hero-content flex flex-col items-start gap-[20px]" data-aos="zoom-in-right"  data-aos-duration="1400"
       data-aos-delay="1000" >
-                    <h1 className="lg:text-[59px] md:text-[60px] text-[35px] font-bold">Elevate your style <br/>
+                    <h1 className="lg:text-[59px] md:text-[60px] text-[35px] font-bold">Elevate inseryt your style <br/>
                         with our sneakers</h1>
                   <Link to='/shop'> <button className="bg-none rounded-[5px] border border-black text-[19px] font-bold px-[30px] py-[13px] hover:bg-black hover:text-white ease-in-out transition" >Shop Now</button></Link> 
                 </div>
